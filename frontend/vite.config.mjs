@@ -5,7 +5,7 @@ export default defineConfig({
   base: "/Blackjack-Webgame/",
   plugins: [react()],
   build: {
-    outDir: "docs",
+    outDir: "../docs",
     emptyOutDir: true,
   },
 });
