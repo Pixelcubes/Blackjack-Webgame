@@ -1,11 +1,17 @@
 import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+const repoName = "Blackjack-Webgame";
 
 export default defineConfig({
-    root: ".",  // Root directory of the project
+    base: `/${repoName}/`,  // Required for GitHub Pages
+    plugins: [react()],     // Required for JSX in production
+    root: ".",              // Your project root
     build: {
-        outDir: "../public",  // Directory for the production build
+        outDir: "docs",     // GitHub Pages will serve this folder
+        emptyOutDir: true,  // Clears old files (overwrites it)
     },
     server: {
-        port: 3000,  // Default development server port
+        port: 3000,
     },
-}); 
+});
