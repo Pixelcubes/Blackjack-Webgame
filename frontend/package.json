@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "vite serve",
+    "build": "vite build --emptyOutDir",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "vite": "^7.2.6"
+  }
+}
