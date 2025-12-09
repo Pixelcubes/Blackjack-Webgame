@@ -1,0 +1,32 @@
+#playerUi {
+    width: 75%;
+    height: 8vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+}
+#playerUi #playerCapital {
+    width: 20%;
+    height: 6vh;
+
+    background-color: green;
+}
+#playerUi #betAmount {
+    width: 20%;
+
+    background-color: green;
+}
+#playerUi #hitBtn {
+    width: 20%;
+
+    background-color: green;
+}
+#playerUi #standBtn {
+    width: 20%;
+
+    background-color: green;
+}
